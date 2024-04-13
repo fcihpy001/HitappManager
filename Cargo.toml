@@ -1,0 +1,17 @@
+[package]
+name = "HitappManager"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = {version = "1.0.197", features = ["derive"]}
+serde_json = "1.0.115"
+bson = "2.10.0"
+axum = "0.7.5"
+http = "1.1.0"
+tokio = { version = "1", features = ["full"] }
+tracing-subscriber = "0.3.18"
+num_cpus = "1.16.0"
+uuid = {version = "1.6.1", features = ["v4"]}
